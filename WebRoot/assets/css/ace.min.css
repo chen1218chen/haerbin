@@ -17,6 +17,13 @@ body.navbar-fixed {
 	padding-top: 45px
 }
 
+.contentMap {
+	padding-top:5px;
+	width:1273px;
+	height: 900px;
+	
+}
+
 body.breadcrumbs-fixed {
 	padding-top: 86px
 }
@@ -65,7 +72,7 @@ body.breadcrumbs-fixed {
 .page-content {
 	background: #fff;
 	margin: 0;
-	padding: 8px 20px 24px
+/* 	padding: 8px 20px 24px */
 }
 
 .page-header {
@@ -1841,7 +1848,7 @@ blockquote,blockquote.pull-right {
 	}
 	.container.main-container .menu-min+.main-content .breadcrumbs.breadcrumbs-fixed
 		{
-		width: 921px
+		width: 1021px
 	}
 }
 
@@ -2612,7 +2619,10 @@ li [class^="icon-"],li [class*=" icon-"],.nav-list li [class^="icon-"],.nav-list
 	{
 	left: 43px
 }
-
+.main-content .btn-tabs{
+	float:right; 
+	margin:8px 5px 0 0
+}
 .menu-min .nav-list a .badge,.menu-min .nav-list a .label {
 	position: relative;
 	top: -1px;
@@ -2759,7 +2769,7 @@ li [class^="icon-"],li [class*=" icon-"],.nav-list li [class^="icon-"],.nav-list
 	z-index: 20;
 	top: -1px;
 	left: 42px;
-	width: 182px;
+	width: 240px;
 	padding: 0 2px 1px;
 	background-color: #fff;
 	-webkit-box-shadow: 2px 1px 2px 0 rgba(0, 0, 0, 0.2);
